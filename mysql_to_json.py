@@ -25,7 +25,7 @@ def mysql_to_json():
         cursor = conn.cursor(dictionary=True)
 
         # The folder to save JSON files
-        output_folder = "northwind_json" # Change this to your desired folder name
+        output_folder = "output_folder" # Change this to your desired folder name
         os.makedirs(output_folder, exist_ok=True)
 
         # List all tables in the database

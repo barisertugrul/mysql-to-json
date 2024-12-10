@@ -31,14 +31,19 @@ This project converts all tables in a MySQL database to JSON files.
         'database': 'northwind'
     }
     ```
+   
+2. Change the `output_folder` variable to the desired output directory:
+    ```python
+    output_folder = 'output_dir'
+    ```
 
-2. Run the script:
+3. Run the script:
     ```sh
     python mysql_to_json.py
     ```
 
-3. JSON files will be saved in the `northwind_json` folder.
+4. JSON files will be saved in the `output_folder` folder.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GPL License.
